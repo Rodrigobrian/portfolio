@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio - Rodrigo Brian</title>
+    <!-- Importa o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho com meu nome, curso e redes sociais -->
+    <header>
+        <h1>Rodrigo Brian Bezerra Araujo</h1>
+        <p>CST em Análise e Desenvolvimento de Sistemas</p>
+        <div class="redes">
+            <!-- Link para meu Instagram -->
+            <a href="https://www.instagram.com/_rodrigo_brian_/" target="_blank">
+                <img src="imagens/instagram.png" alt="Instagram" class="icone">
+            </a>
+            <!-- Link para meu Facebook -->
+            <a href="https://www.facebook.com/share/1CE9BYd2Ww/" target="_blank">
+                <img src="imagens/facebook.png" alt="Facebook" class="icone">
+            </a>
+            <!-- Link para meu LinkedIn -->
+            <a href="https://www.linkedin.com/feed/?trk=public_profile-not-found-log-in_google-one-tap-submit" target="_blank">
+                <img src="imagens/linkedin.png" alt="LinkedIn" class="icone">
+            </a>
+            <!-- Link para meu GitHub -->
+            <a href="https://github.com/RodrigoBrianDEV" target="_blank">
+                <img src="imagens/logotipo-do-github.png" alt="GitHub" class="icone">
+            </a>
+        </div>
+    </header>
+
+    <!-- Menu de navegação com botões -->
+    <nav>
+        <button onclick="mostrarConteudo('sobre')">Sobre Mim</button>
+        <button onclick="mostrarConteudo('formacao')">Formação</button>
+        <button onclick="mostrarConteudo('portfolio')">Portfólio</button>
+        <button onclick="mostrarConteudo('contato')">Contato</button>
+    </nav>
+
+    <!-- Área que vai mudar conforme o botão clicado -->
+    <div id="conteudo" class="conteudo">
+        <h2>Bem-vindo ao meu portfólio!</h2>
+        <p>Clique nos botões acima para conhecer mais sobre mim.</p>
+    </div>
+
+    <!-- Importa o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
